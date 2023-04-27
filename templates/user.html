@@ -1,0 +1,32 @@
+<!DOCTYPE html> 
+<html>
+<head><!-- Jenny start add here!!!:))))) -->
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/user.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body >
+    <div class="h" align="center"> 
+    <font size="20"><b>Let's start the journey:<b></b></font>
+    </div>
+    <div class="h" align="center"> 
+    <p size="4">Remember, sincerity is the key to success.</p>
+    </div>
+    <!-- Jenny end add here:(((((( -->
+    <div align="center"> 
+    <img src="{{ url_for('video') }}" width="1100px" style="display:block; margin:auto;"></img>
+    </div> 
+    <div align="center"> 
+    <!-- Jenny start add here!!!:))))) -->
+    <!--change for connect third page-->
+    <form action = "{{ url_for('index1') }}">
+        <input class="btn" style="background-color:#4F4F4F" onclick="stop();closeMedia()"type="submit" submit name="start" value="FINISH">
+    </form> 
+    <!-- Jenny end add here:(((((( -->
+    </div> 
+    
+    
+</body>
+</html>

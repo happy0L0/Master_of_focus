@@ -1,0 +1,49 @@
+html{
+    /* Jenny start add here */
+    background-image: url("pg2.jpg");
+    /* Jenny end add here */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+   
+    
+}
+.h{
+    font-family: 'Varela Round', sans-serif;
+}
+
+.btn{
+    width: 150px;
+    height: 40px;
+    color:white;
+    border:none;
+    text-align: center;
+    cursor: pointer;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 4px;
+}
+.times{
+    font-size: 40px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#time{
+    font-size: 40px;
+    color: gray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+  
+}
+.video{
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
